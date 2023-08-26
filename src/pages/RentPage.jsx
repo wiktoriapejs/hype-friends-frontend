@@ -63,7 +63,7 @@ export default function RentPage() {
                   {item.photos?.[0] && (
                     <img
                       className="rounded-lg object-cover aspect-square"
-                      src={"http://host:4000/" + item.photos?.[0]}
+                      src={"https://hype-friends-backend-production.up.railway.app/" + item.photos?.[0]}
                       alt="photo"
                     />
                   )}
