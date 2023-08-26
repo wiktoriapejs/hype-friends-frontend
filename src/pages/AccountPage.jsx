@@ -61,7 +61,7 @@ return (
        
         <div className=''>
         {item.photos.length > 0 && (
-          <img className= 'w-[20rem] h-[12rem] rounded-lg'src={'http://localhost:4000/' + item.photos[0]} alt='photo'/>
+          <img className= 'w-[20rem] h-[12rem] rounded-lg'src={'https://hype-friends-backend-production.up.railway.app/' + item.photos[0]} alt='photo'/>
 
         )}
         <hr className="border-b border-[#0C6164] my-2  border-0.1"></hr>

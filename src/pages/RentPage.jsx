@@ -63,7 +63,7 @@ export default function RentPage() {
                   {item.photos?.[0] && (
                     <img
                       className="rounded-lg object-cover aspect-square"
-                      src={"http://localhost:4000/" + item.photos?.[0]}
+                      src={"http://host:4000/" + item.photos?.[0]}
                       alt="photo"
                     />
                   )}

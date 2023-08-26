@@ -23,7 +23,7 @@ export default function ItemGallery({item}){
           </div>
           {item?.photos?.length > 0 && item.photos.map((photo,index) => (
             <div className="  justify-items-center" key={index}>
-              <img src={'http://localhost:4000/' + photo} />
+              <img src={'https://hype-friends-backend-production.up.railway.app/' + photo} />
             </div>
           ))}
           </div>
@@ -38,7 +38,7 @@ return(
        <div >
            {item.photos?.[0] && (
               
-               <img  onClick={() => setShowAllPhotos(true)} className='rounded-xl aspect-square object-cover max-h-[700px] ' src={'http://localhost:4000/' +item.photos?.[0]} />
+               <img  onClick={() => setShowAllPhotos(true)} className='rounded-xl aspect-square object-cover max-h-[700px] ' src={'https://hype-friends-backend-production.up.railway.app/' +item.photos?.[0]} />
           
            )}
    <button onClick={() => setShowAllPhotos(true)} className=" flex relative gap-1 bottom-10 right-2 py-2 px-4 bg-white rounded-2xl  shadow-md shadow-gray-500">
